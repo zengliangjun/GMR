@@ -1,4 +1,12 @@
+import os.path as osp
+import sys
+root = osp.abspath(osp.join(osp.dirname(__file__), ".."))
+sys.path.insert(0, root)
+
+
 import argparse
+
+
 import pathlib
 import time
 from general_motion_retargeting import GeneralMotionRetargeting as GMR
