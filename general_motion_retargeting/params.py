@@ -45,6 +45,7 @@ IK_CONFIG_DICT = {
     },
     "bvh":{
         "unitree_g1": IK_CONFIG_ROOT / "bvh_to_g1.json",
+        "unitree_g1_23dof": IK_CONFIG_ROOT / "bvh_to_g1.json",
         "unitree_g1_with_hands": IK_CONFIG_ROOT / "bvh_to_g1.json",
         "booster_t1_29dof": IK_CONFIG_ROOT / "bvh_to_t1_29dof.json",
         "fourier_n1": IK_CONFIG_ROOT / "bvh_to_n1.json",

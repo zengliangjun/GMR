@@ -1,0 +1,5 @@
+python scripts/bvh_to_robot.py \
+    --bvh_file "/workspace/PROJECTS/MOTIONS/data/LAFAN1/lafan1/walk1_subject5.bvh" \
+    --robot "unitree_g1_23dof" \
+    --save_path "/workspace/PROJECTS/MOTIONS/data/LAFAN1/GMR/g1_23dof/walk1_subject5.pkl" \
+    --rate_limit
